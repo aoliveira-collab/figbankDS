@@ -1,0 +1,58 @@
+.item {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-12);
+  width: 100%;
+  padding: var(--spacing-12) 0;
+  font-family: var(--font-family-base);
+}
+
+.categoryIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: var(--radius-full);
+  background-color: var(--color-base-800);
+  flex-shrink: 0;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-width: 0;
+}
+
+.title {
+  font-size: var(--font-size-body);
+  font-weight: 500;
+  color: var(--color-text-primary);
+}
+
+.subtitle {
+  font-size: var(--font-size-footnote);
+  color: var(--color-text-tertiary);
+}
+
+.amountWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4px;
+}
+
+.amount {
+  font-size: var(--font-size-body);
+  font-weight: 600;
+}
+
+.expense { color: var(--color-text-primary); }
+.income { color: var(--color-semantic-success); }
+.pending { color: var(--color-text-secondary); }
+
+.pendingBadge {
+  font-size: var(--font-size-caption);
+  color: var(--color-semantic-warning);
+}

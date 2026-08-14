@@ -1,0 +1,35 @@
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px 6px 10px;
+  border-radius: var(--radius-full);
+  font-family: var(--font-family-base);
+  font-weight: 600;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: currentColor;
+}
+
+.active { color: var(--color-semantic-success); }
+.blocked { color: var(--color-semantic-error); }
+.virtual { color: var(--color-accent-purple); }
+.pending { color: var(--color-semantic-warning); }
+.info { color: var(--color-semantic-info); }
+
+.filled.active { background-color: var(--color-semantic-success-subtle); }
+.filled.blocked { background-color: var(--color-semantic-error-subtle); }
+.filled.virtual { background-color: var(--color-accent-purple-subtle); }
+.filled.pending { background-color: var(--color-semantic-warning-subtle); }
+.filled.info { background-color: var(--color-semantic-info-subtle); }
+
+.outlined {
+  background-color: transparent;
+  border: 1px solid currentColor;
+}

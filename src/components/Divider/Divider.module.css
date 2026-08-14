@@ -1,0 +1,15 @@
+.divider {
+  width: 100%;
+  border: none;
+  margin: 0;
+}
+
+.subtle {
+  height: 1px;
+  background-color: var(--color-base-800);
+}
+
+.section {
+  height: 8px;
+  background-color: var(--color-base-900);
+}

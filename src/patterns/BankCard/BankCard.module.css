@@ -1,0 +1,59 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 342px;
+  aspect-ratio: 1.586;
+  padding: var(--spacing-24);
+  border-radius: var(--radius-xl);
+  background: linear-gradient(135deg, var(--color-base-850), var(--color-base-950));
+  color: var(--color-text-primary);
+  font-family: var(--font-family-base);
+}
+
+.card.blocked {
+  background: linear-gradient(135deg, var(--color-accent-red-subtle), var(--color-base-950));
+}
+
+.card.virtual {
+  background: linear-gradient(135deg, var(--color-accent-purple-subtle), var(--color-base-950));
+}
+
+.topRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.chip {
+  width: 36px;
+  height: 24px;
+  border-radius: var(--radius-xs);
+  background-color: var(--color-base-300);
+  opacity: 0.8;
+}
+
+.number {
+  font-size: var(--font-size-title);
+  font-weight: 600;
+  letter-spacing: var(--letter-spacing-wide);
+  margin: 0;
+}
+
+.bottomRow {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.name {
+  font-size: var(--font-size-body-sm);
+  font-weight: 600;
+  letter-spacing: var(--letter-spacing-wide);
+}
+
+.expiry {
+  font-size: var(--font-size-footnote);
+  color: var(--color-text-secondary);
+}

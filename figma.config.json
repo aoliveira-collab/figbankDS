@@ -1,0 +1,10 @@
+{
+  "codeConnect": {
+    "parser": "react",
+    "include": ["src/components/**/*.tsx", "src/patterns/**/*.tsx"],
+    "importPaths": {
+      "src/components/*": "@figbank/design-system"
+    }
+  },
+  "_comment": "Mapeamentos de Code Connect (Figma <-> componentes de código) ainda não foram criados. Este arquivo só define a configuração base para quando o mapeamento for iniciado."
+}

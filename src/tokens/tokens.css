@@ -1,0 +1,110 @@
+/**
+ * CSS variables geradas a partir dos design tokens do Figma.
+ * Importe este arquivo uma vez na raiz da aplicação consumidora.
+ * NÃO editar valores aqui diretamente — edite os arquivos .ts em src/tokens
+ * e regenere (scripts/sync-tokens.ts) ou mantenha os dois em sincronia manual.
+ */
+
+:root {
+  /* color/base */
+  --color-base-950: #0a0a0b;
+  --color-base-900: #141416;
+  --color-base-850: #1c1c1f;
+  --color-base-800: #242428;
+  --color-base-700: #2e2e33;
+  --color-base-600: #3a3a40;
+  --color-base-500: #525259;
+  --color-base-400: #71717a;
+  --color-base-300: #a1a1aa;
+  --color-base-200: #d4d4d8;
+  --color-base-100: #e4e4e7;
+  --color-base-50: #f4f4f5;
+  --color-base-white: #ffffff;
+
+  /* color/accent */
+  --color-accent-red: #f24e1e;
+  --color-accent-red-hover: #d9451a;
+  --color-accent-red-subtle: #2d1410;
+  --color-accent-orange: #ff7262;
+  --color-accent-orange-hover: #e5665a;
+  --color-accent-orange-subtle: #2d1714;
+  --color-accent-green: #0acf83;
+  --color-accent-green-hover: #09b874;
+  --color-accent-green-subtle: #0a2d1e;
+  --color-accent-blue: #1abcfe;
+  --color-accent-blue-hover: #17a8e3;
+  --color-accent-blue-subtle: #0a1e2d;
+  --color-accent-purple: #a259ff;
+  --color-accent-purple-hover: #9050e6;
+  --color-accent-purple-subtle: #1a0f2d;
+  --color-accent-primary: #a259ff;
+  --color-accent-primary-hover: #9050e6;
+  --color-accent-primary-pressed: #7d3fcc;
+  --color-accent-secondary: #1abcfe;
+  --color-accent-secondary-hover: #17a8e3;
+
+  /* color/semantic */
+  --color-semantic-success: #0acf83;
+  --color-semantic-success-subtle: #0a2d1e;
+  --color-semantic-error: #f24e1e;
+  --color-semantic-error-subtle: #2d1410;
+  --color-semantic-warning: #ffca28;
+  --color-semantic-warning-subtle: #2d2610;
+  --color-semantic-info: #1abcfe;
+  --color-semantic-info-subtle: #0a1e2d;
+
+  /* color/text */
+  --color-text-primary: #f4f4f5;
+  --color-text-secondary: #a1a1aa;
+  --color-text-tertiary: #71717a;
+  --color-text-disabled: #525259;
+  --color-text-inverse: #141416;
+  --color-text-accent: #a259ff;
+  --color-text-success: #0acf83;
+  --color-text-error: #f24e1e;
+  --color-text-link: #1abcfe;
+
+  /* spacing */
+  --spacing-2: 2px;
+  --spacing-4: 4px;
+  --spacing-8: 8px;
+  --spacing-12: 12px;
+  --spacing-16: 16px;
+  --spacing-20: 20px;
+  --spacing-24: 24px;
+  --spacing-32: 32px;
+  --spacing-40: 40px;
+  --spacing-48: 48px;
+  --spacing-64: 64px;
+  --spacing-80: 80px;
+
+  /* radius */
+  --radius-none: 0px;
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 20px;
+  --radius-2xl: 24px;
+  --radius-full: 9999px;
+
+  /* typography */
+  --font-family-base: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-size-caption: 11px;
+  --font-size-footnote: 13px;
+  --font-size-body-sm: 14px;
+  --font-size-body: 16px;
+  --font-size-body-lg: 17px;
+  --font-size-title-sm: 20px;
+  --font-size-title: 24px;
+  --font-size-title-lg: 28px;
+  --font-size-headline: 34px;
+  --font-size-display: 40px;
+  --line-height-tight: 1.2;
+  --line-height-normal: 1.4;
+  --line-height-relaxed: 1.6;
+  --letter-spacing-tight: -0.5px;
+  --letter-spacing-normal: 0px;
+  --letter-spacing-wide: 0.5px;
+  --letter-spacing-wider: 1px;
+}
