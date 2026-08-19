@@ -1,18 +1,14 @@
 {
   "codeConnect": {
-    "parser": "react",
     "label": "React",
     "include": [
-      "src/**/*.figma.ts",
-      "src/**/*.tsx"
+      "src/**/*.figma.tsx",
+      "src/components/**/*.tsx",
+      "src/patterns/**/*.tsx"
     ],
     "exclude": [
       "node_modules/**",
       "dist/**"
-    ],
-    "importPaths": {
-      "src/components/*": "@figbank/design-system",
-      "src/patterns/*": "@figbank/design-system"
-    }
+    ]
   }
 }
