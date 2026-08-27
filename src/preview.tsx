@@ -72,6 +72,8 @@ function App() {
       <Section title="Toast">
         <Toast type="Success" message="Transferência realizada com sucesso." />
         <Toast type="Error" message="Não foi possível concluir a transação." />
+        <Toast type="Warning" message="Seu limite diário está próximo do fim." />
+        <Toast type="Info" message="Novo extrato disponível." />
       </Section>
     </div>
   );

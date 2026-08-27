@@ -4,28 +4,55 @@
   gap: var(--spacing-12);
   width: 100%;
   max-width: 342px;
-  padding: var(--spacing-16);
+  min-height: 52px;
+  /* A barra de acento encosta na borda esquerda — só há padding à direita. */
+  padding-right: var(--spacing-16);
   border-radius: var(--radius-md);
-  background-color: var(--color-base-850);
+  background-color: var(--color-base-800);
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.3);
   font-family: var(--font-family-base);
   overflow: hidden;
-  position: relative;
 }
 
 .accent {
   width: 4px;
   align-self: stretch;
+  flex-shrink: 0;
+}
+
+.icon {
+  width: 28px;
+  height: 28px;
   border-radius: var(--radius-full);
   flex-shrink: 0;
 }
 
 .message {
   margin: 0;
+  flex: 1 0 0;
+  min-width: 0;
   font-size: var(--font-size-body-sm);
+  font-weight: 500;
   color: var(--color-text-primary);
+  word-break: break-word;
 }
 
-.success .accent { background-color: var(--color-semantic-success); }
-.error .accent { background-color: var(--color-semantic-error); }
-.warning .accent { background-color: var(--color-semantic-warning); }
-.info .accent { background-color: var(--color-semantic-info); }
+.success .accent,
+.success .icon {
+  background-color: var(--color-semantic-success);
+}
+
+.error .accent,
+.error .icon {
+  background-color: var(--color-semantic-error);
+}
+
+.warning .accent,
+.warning .icon {
+  background-color: var(--color-semantic-warning);
+}
+
+.info .accent,
+.info .icon {
+  background-color: var(--color-semantic-info);
+}
